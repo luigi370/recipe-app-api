@@ -1,0 +1,13 @@
+GET {{host}}/api/user/me/
+Authorization: Token {{token}}
+Content-Type: application/json
+
+###
+
+PATCH {{host}}/api/user/me/
+Authorization: Token {{token}}
+Content-Type: application/json
+
+{
+  "name": "Luis Ernesto"
+}
