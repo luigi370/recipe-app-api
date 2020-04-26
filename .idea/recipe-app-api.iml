@@ -13,7 +13,11 @@
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/app/core" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/app/recipe" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/app/user" isTestSource="false" />
+    </content>
     <orderEntry type="jdk" jdkName="Remote Python 3.8.2 Docker Compose (app at [/Users/luigi/Sites/recipe-app-api/docker-compose.yml])" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
