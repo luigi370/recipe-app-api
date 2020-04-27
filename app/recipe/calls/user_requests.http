@@ -1,0 +1,34 @@
+GET {{host}}/api/recipe/
+Authorization: Token {{token}}
+Content-Type: application/json
+
+###
+
+GET {{host}}/api/recipe/tags/
+Authorization: Token {{token}}
+Content-Type: application/json
+
+###
+
+GET {{host}}/api/recipe/ingredients/
+Authorization: Token {{token}}
+Content-Type: application/json
+
+###
+
+PATCH {{host}}/api/user/me/
+Authorization: Token {{token}}
+Content-Type: application/json
+
+{
+  "name": "Luis Ernesto"
+}
+
+###
+POST {{host}}/api/recipe/ingredients/
+Authorization: Token {{token}}
+Content-Type: application/json
+
+{
+  "name": "Paper"
+}
