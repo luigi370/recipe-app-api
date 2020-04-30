@@ -32,3 +32,7 @@ Content-Type: application/json
 {
   "name": "Paper"
 }
+###
+GET {{host}}/api/recipe/recipes/2/
+Authorization: Token {{token}}
+Content-Type: application/json
